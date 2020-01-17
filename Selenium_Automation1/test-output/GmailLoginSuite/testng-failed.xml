@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GmailLoginSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IE_TestResults(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="testng.GmailLogin">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testng.GmailLogin -->
+    </classes>
+  </test> <!-- IE_TestResults(failed) -->
+</suite> <!-- Failed suite [GmailLoginSuite] -->

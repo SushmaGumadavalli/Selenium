@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BuildV8_978_Suite_07Dec2019_1">
+  <test thread-count="5" name="Build1.2_Result">
+    <classes>
+      <class name="testng.Newtestdemo"/>
+      <class name="testng.CrossBrowserTesting"/>
+      <class name="testng.FirstClass"/>
+      <class name="testng.SchoolVacancytesting"/>
+      <class name="testng.FB_Retesting"/>
+      <class name="testng.SampleFirstclass"/>
+      <class name="testng.Samplesecondclass"/>
+      <class name="testng.SecondClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
